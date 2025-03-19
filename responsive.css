@@ -1,0 +1,78 @@
+@media (max-width: 1368px) {
+  #arrow_img {
+    height: 120px;
+  }
+
+  #section_one {
+    gap: 8px;
+    width: 59%;
+    height: 35px;
+  }
+
+  #section_two p {
+    font-size: 2.3rem;
+  }
+
+  #section_two h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+  }
+
+  #section_three {
+    font-size: 11px;
+  }
+
+  #section_four {
+    font-size: 12px;
+  }
+
+  #btn_reg {
+    width: 50%;
+  }
+}
+
+/* Large Screens (min-width: 1200px) */
+@media (max-width: 1200px) {
+  #img_para {
+    position: absolute;
+    top: 5%;
+    left: 35%;
+  }
+
+  #para {
+    font-size: 0.7rem;
+    top: -6px;
+  }
+
+  #para_inner_img {
+    height: 20px;
+  }
+
+  #spring_img {
+    margin-top: 90%;
+    max-width: 40%;
+  }
+
+  #inner_one {
+    gap: 17%;
+    margin-left: 6%;
+  }
+
+  #slider {
+    height: 110px;
+  }
+
+  #small_arrow_img {
+    margin-left: 60%;
+  }
+
+  #shape6_img {
+    height: 170px;
+    margin-bottom: 8%;
+  }
+
+  #shape5_img {
+    height: 140px;
+    margin-bottom: -20%;
+  }
+}
