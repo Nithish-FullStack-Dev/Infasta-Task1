@@ -749,6 +749,10 @@
 }
 
 @media (max-width: 780px) {
+  .page1 {
+    background-size: cover;
+    background-position: top;
+  }
   .logo {
     width: 140px;
     height: 100px;
@@ -779,5 +783,105 @@
   }
   .fa-solid {
     font-size: 41px;
+  }
+  .page3 {
+    display: none;
+  }
+  .page4 {
+    display: block !important;
+  }
+  .course {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    margin: auto;
+  }
+  .offer {
+    font-size: 20px;
+    padding: 8px 20px 8px 14px;
+    margin-bottom: 28px;
+  }
+  .offer img {
+    height: 29px;
+    width: 29px;
+  }
+  .course h1 {
+    font-size: 43px;
+    line-height: 60px;
+  }
+  .course h5 {
+    font-size: 19px;
+    margin-bottom: 19px;
+  }
+  .course h6 {
+    font-size: 17px;
+    margin-bottom: 25px;
+  }
+  .apply_now1 {
+    width: 184px !important;
+    height: 47px !important;
+  }
+  .btns .btn_reg {
+    width: 261px;
+    height: 49px;
+  }
+  .btns .btn_reg p {
+    font-size: 16px;
+  }
+
+  .model {
+    background-image: url("./assests/model.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .all-images {
+    display: flex;
+    justify-content: space-around;
+  }
+  .one-part {
+    margin: auto;
+  }
+  .one-part [alt="slider"] {
+    height: 100px;
+  }
+  .star_div {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 40px 50px 0px #1c335429;
+  }
+  .star_div img {
+    height: 50px;
+  }
+
+  .second-part {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .ratings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 40px 50px 0px #1c335429;
+    border-radius: 10px;
+    padding: 9px;
+  }
+  .ratings img{
+    height: 39px;
+  }
+
+  .ratings p{
+    font-size: 10px;
   }
 }
