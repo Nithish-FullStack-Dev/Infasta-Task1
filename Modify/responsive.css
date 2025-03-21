@@ -1,4 +1,10 @@
 @media screen {
+  .page1 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .page3 {
     background-size: contain;
     background-position: center;
@@ -311,6 +317,22 @@
 
   [alt="img6"] {
     margin-left: -15px;
+  }
+}
+@media (max-width: 1550px) {
+  .container {
+    width: 1356px;
+    margin: 0px auto;
+  }
+  .page3::before {
+    width: 183px;
+  }
+  .page3 {
+    padding: 148px 0 141px 0;
+  }
+  .course {
+    margin-left: 131px;
+    width: 549px;
   }
 }
 
@@ -750,8 +772,18 @@
 
 @media (max-width: 780px) {
   .page1 {
+    background-image: none;
+    padding: 0;
+  }
+  .banner_text {
+    background-image: url("./assests/banner.jpg");
+    background-position: center;
     background-size: cover;
-    background-position: top;
+    background-repeat: no-repeat;
+    /* padding: 10px 0; */
+  }
+  .banner_div {
+    display: none;
   }
   .logo {
     width: 140px;
@@ -789,6 +821,7 @@
   }
   .page4 {
     display: block !important;
+    position: relative;
   }
   .course {
     width: 100%;
@@ -877,11 +910,47 @@
     border-radius: 10px;
     padding: 9px;
   }
-  .ratings img{
+  .ratings img {
     height: 39px;
   }
 
-  .ratings p{
+  .ratings p {
     font-size: 10px;
+  }
+
+  .nav_slider {
+    width: auto;
+    display: block !important;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: -227px;
+    box-shadow: 0px 77px 76px 14px #1c335429;
+    transition: all 0.5s ease;
+  }
+  .navigation_div {
+    height: 100%;
+  }
+
+  .navigation_div ul {
+    padding: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 26px;
+    padding: 22px;
+  }
+  .navigation_div ul li a {
+    color: #000;
+    font-size: 18px;
+  }
+
+  .icon {
+    padding: 10px;
+  }
+  .fa-solid {
+    font-size: 40px;
   }
 }

@@ -94,8 +94,7 @@ header nav ul li a {
   justify-content: center;
   align-items: center;
   gap: 13px;
-  width: 158px;
-  height: 48px;
+  padding: 14px;
   background-color: #2467ec;
   border-radius: 4px;
 }
@@ -138,7 +137,8 @@ header nav ul li a {
 
 .course {
   margin-left: 215px;
-  width: 564px;
+  flex: 0 0 33%;
+  max-width: 33%;
 }
 
 .content {
@@ -213,47 +213,59 @@ header nav ul li a {
 }
 
 .apply_now1 {
-  width: 168px;
-  height: 55px;
+  padding: 15px;
+}
+
+.figures {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+}
+
+[alt="img1"] {
+  position: absolute;
+  left: 12%;
+}
+
+[alt="img2"] {
+  position: absolute;
+  top: 38%;
+  left: 12%;
 }
 
 .slider_img_rate {
   background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   padding: 15px 33px 23px 33px;
   border-radius: 12px;
   box-shadow: 0px 40px 50px 0px #1c335429;
-}
-
-.slider_img0::before {
-  content: url("./assests/spring.png");
   position: absolute;
-  top: -90%;
+  bottom: -93px;
+  left: 23%;
 }
 
-.slider_img0 {
+
+
+/* .slider_img0 {
   position: relative;
   top: 44%;
   left: 63%;
-}
+} */
 
 .slider_img_rate {
   position: absolute;
-  top: 68%;
-  left: 30%;
+  /* top: 68%;
+  left: 30%; */
 }
 
-[alt="img6"] {
-  margin-left: -36px;
-}
+/* [alt="img6"] {
+  margin-left: -36px; 
+} */
 
-.slider_img1 {
+/* .slider_img1 {
   position: relative;
-  left: 713px;
-}
+  left: 265%;
+} */
 
 .img_main .img_text {
   padding: 28px 43px 18px 23px;
@@ -262,30 +274,33 @@ header nav ul li a {
   border-radius: 12px;
 }
 
-.img_main::before {
-  content: url("./assests/small_arrow.png");
+[alt="img3"]{
   position: absolute;
-  bottom: 130px;
-  right: 31px;
+  right: -4%;
+  top: 27%;
 }
 
 .img_main {
-  position: relative;
-  bottom: 47px;
+  position: absolute;
+  right: -84px;
+  top: 33%;
 }
-
+/* 
 .img_div {
   position: relative;
   right: 85px;
   top: 94px;
-}
+} */
 
 .img_main1 {
-  display: flex;
-  gap: 17px;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  right: 0;
+  bottom: -74px;
   padding: 14px;
   background-color: #fff;
   border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
